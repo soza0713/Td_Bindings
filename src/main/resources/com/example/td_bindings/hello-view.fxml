@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="Slider" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.td_bindings.HelloController">
+   <children>
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="73.0" layoutX="226.0" layoutY="293.0" stroke="BLACK" strokeType="INSIDE" width="149.0" />
+      <Label layoutX="425.0" layoutY="183.0" text="surface" />
+      <TextField fx:id="hauteur" layoutX="79.0" layoutY="109.0" />
+      <TextField fx:id="largeur" layoutX="79.0" layoutY="222.0" />
+      <TextField fx:id="perimetre" layoutX="350.0" layoutY="109.0" />
+      <TextField fx:id="surface" layoutX="363.0" layoutY="222.0" />
+      <Label layoutX="140.0" layoutY="76.0" text="hauteur" />
+      <Label layoutX="142.0" layoutY="183.0" text="largeur" />
+      <Label layoutX="411.0" layoutY="76.0" text="perimetre" />
+      <Slider fx:id="sliderHauteur" layoutX="37.0" layoutY="39.0" orientation="VERTICAL" />
+      <Slider fx:id="sliderLargeur" layoutX="37.0" layoutY="216.0" orientation="VERTICAL" />
+   </children>
+</AnchorPane>
